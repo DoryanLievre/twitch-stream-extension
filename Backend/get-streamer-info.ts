@@ -1,8 +1,8 @@
-const url = `https://api.twitch.tv/helix/streams?user_id=${userId}`;
-const headers = {
-    'Authorization': `Bearer ${token}`,
-    'Client-Id': ``,
-};
+// const url = `https://api.twitch.tv/helix/streams?user_id=${userId}`;
+// const headers = {
+//     'Authorization': `Bearer ${token}`,
+//     'Client-Id': ``,
+// };
 
 const channelInfo = document.getElementById('info') as HTMLElement;
 
