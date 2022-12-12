@@ -22,4 +22,4 @@ function fetchTwitchApi(url: string, headers: any, checker: (json: any) => void)
     }).then((json) => checker(json));
 }
 
-fetchTwitchApi(url, headers, checker);
+// fetchTwitchApi(url, headers, checker);
